@@ -1,38 +1,81 @@
 .App {
   text-align: center;
-}
+  background-color: #2c5781;
+  background-image: linear-gradient(62deg, #2c5781 0%, #e0c3fc 100%);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.board {
+  width: 50%;
+  height: 50%;
+  margin-top: 10vh;
+  box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #2a333d;
   color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.button:active {
+  background-color: #475462;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkboxWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #2a333d;
+  color: white;
+  padding: 0.6em;
+  border-radius: 30px;
+  border: none;
+}
+
+.particleSettings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a333d;
+  border-radius: 30px;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 10px;
 }
