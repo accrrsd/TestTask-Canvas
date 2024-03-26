@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 # Тестовое задание посвященное работе с canvas
 
 ### [GH PAGES](https://accrrsd.github.io/TestTask-Canvas/)
