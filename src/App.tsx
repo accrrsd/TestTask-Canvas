@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
 // constants (settings)
-const MAX_PARTICLES = 30
+const MAX_PARTICLES = 120
 
-const MAX_PARTICLE_SIZE = 10
+const MAX_PARTICLE_SIZE = 15
 const MIN_PARTICLE_SIZE = 5
 const MOUSE_COLLISION_RADIUS = 10
 
